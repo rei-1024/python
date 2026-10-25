@@ -1,0 +1,12 @@
+print(1+1)
+print(1-1)
+#乘法
+print(2*2)
+#除法
+print(2^2)
+#平方
+print(2**2)
+#取余
+print(8%3)
+#取整
+print(9//4)
