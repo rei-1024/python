@@ -1,1 +1,1 @@
-This folder will include my first step of learning AI --> “python learning”
+This folder will record my first step of learning AI --> “python learning"
