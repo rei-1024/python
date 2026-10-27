@@ -20,3 +20,15 @@ def sell_car(price,brand,length,height,color = "blue"):
         "\nheight is",height)
 
 sell_car(100,"benz",5100,"3t")
+
+#在函数里定义全局变量用global，
+#且一开始要给变量定义成None
+a = None
+def fun():
+  global a
+  a = 20
+  return a + 100
+
+print("a past is",a)
+print(fun())
+print("a now is",a)
